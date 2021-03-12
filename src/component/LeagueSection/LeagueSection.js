@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import './LeagueSection.css';
-import { faLongArrowAltRight,faFacebook } from '@fortawesome/free-solid-svg-icons'
+import { faLongArrowAltRight} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const LeagueSection = (props) => {
     // console.log(props);

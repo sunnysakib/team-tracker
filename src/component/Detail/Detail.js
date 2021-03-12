@@ -15,7 +15,7 @@ const Detail = () => {
     .then(res => res.json())
     .then(data => setTeam(data.teams[0])) 
 },[teamId])
-    console.log(team);
+    
     const {strTeam, strDescriptionEN, strGender, strCountry, strSport, strTeamBadge, intFormedYear, strTwitter,strWebsite,strYoutube} = team;
 return (
         <div className='detailStyle' >
