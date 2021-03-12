@@ -1,0 +1,13 @@
+.headerStyle{
+    background-image: linear-gradient(#06080cbe,#06080c7a), url(../../img/thumb-1920-47233.jpg);
+    background-position: top;
+    height: 40vh;
+}
+
+.headerStyle h1 {
+    font-size: 45px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}

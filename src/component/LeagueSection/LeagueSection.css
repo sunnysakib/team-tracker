@@ -1,0 +1,25 @@
+
+.teamDiv {
+    width: 200px;
+    height: 230px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flexbox;
+    text-align: center;
+}
+.teamDiv img {
+    margin-top: 5px;
+    height: 80px;
+    /* padding-left: 110px; */
+}
+
+.teamDiv button{
+    background-color: #3A42FF;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 2px;
+}
+.link{
+    color: white;
+}
