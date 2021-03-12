@@ -1,10 +1,10 @@
-import { faLongArrowAltRight, faTwitterSquare } from '@fortawesome/free-solid-svg-icons';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faTwitter, faFacebook, faYoutube} from '@fortawesome/free-brands-svg-icons'
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import './Detail.css'
-import male from './image/male.png'
+// import male from './image/male.png'
 
 const Detail = () => {
     let { teamId } = useParams();
@@ -14,7 +14,7 @@ const Detail = () => {
     fetch(url)
     .then(res => res.json())
     .then(data => setTeam(data.teams[0])) 
-},[])
+},[teamId])
     console.log(team);
     const {strTeam, strDescriptionEN, strGender, strCountry, strSport, strTeamBadge, intFormedYear, strTwitter,strWebsite,strYoutube} = team;
 return (
